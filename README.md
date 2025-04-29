@@ -9,6 +9,16 @@ This analysis examines the production line downtime across various operators to 
 
 The project is made with line managers in mind providing them with a detailed breakdown of production line performance, operator efficiency, and recurring downtime issues. 
 
+**<ins>Processing the data before Analysis</ins>**
+
+1. Unpvoting the Line donwtime and factor table.
+
+The factor columns are spread with null values in most rows meaning we can unpivot them to a single column for better viewing and esy table joining. 
+   
+2. Joining the four tables using power query.
+
+The tables have common columns that can be used to merge them together into a final table providing a comprehensive view of the data.
+
 **<ins>What the project is answering</ins>**
 
 1. Calculate the line efficiency
