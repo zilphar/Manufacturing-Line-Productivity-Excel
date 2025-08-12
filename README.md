@@ -1,4 +1,4 @@
-# Manufactuing-Line-Productivity-Excel
+# Line-Productivity-Excel
 Excel,  Line efficiency,   Line downtime 
 
 **<ins>Introduction<ins/>**
